@@ -1,0 +1,15 @@
+<template name="AppLayout">
+    {{> Header}}
+    <div class="container">
+    	<div class="row">
+    		<div class="col-sm-3">
+    			{{> AppNav}}
+    		</div>
+    		<div class="col-sm-9">
+    			<main class="app-layout">
+			        {{> Template.dynamic template=main}}
+			    </main>
+    		</div>
+    	</div>
+    </div>
+</template>

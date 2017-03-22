@@ -1,0 +1,9 @@
+<template name="Dashboard">
+	
+	{{#if isInRole 'developer'}}
+    	<h1 class="page-title">Developer Dashboard</h1>
+    {{else}}
+    	<h3>Not Authorized</h3>
+    {{/if}}
+
+</template>

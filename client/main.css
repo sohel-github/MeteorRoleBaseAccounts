@@ -1,0 +1,81 @@
+/* CSS declarations go here */
+
+body{
+	padding-top: 80px;
+}
+
+
+.at-title h3{
+    color: #999;
+    text-transform: uppercase;
+}
+.at-form{
+	border: 1px solid #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+.at-input input{
+	width: 100%;
+	padding: 10px;
+    margin: 5px 0px;
+    text-align: center;
+    border:1px solid #999;
+    color: #999;
+}
+.at-input input:focus{
+	outline: none;
+}
+.at-input label{display: none;}
+.at-input select{
+	width: 100%;
+    margin: 5px 0px 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height:45px;
+    border-radius: 0px;
+    border:1px solid #999;
+    background: none;
+    text-indent: 43%;
+    color: #999;
+}
+.at-input select:focus{
+	outline: none;
+}
+
+.at-form button{
+	display: inline-block;
+    width: 100%;
+    background-color: #de4f4f;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#at-facebook {
+    background: #3B5998;
+    color: #fff;
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 5px 0px;
+}
+
+#at-github {
+    background: #666;
+    color: #fff;
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 5px 0px;
+}
